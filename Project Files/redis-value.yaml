@@ -1,0 +1,6 @@
+serviceMonitor: # Link entre exporter e prometheus app
+  enabled: true
+  labels: 
+    release: monitoring # labels que o cluster contém
+
+redisAddress: redis://redis-cart:6379
